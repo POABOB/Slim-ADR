@@ -1,0 +1,47 @@
+{
+    "name": "poabob/slim-adr",
+    "type": "project",
+    "description": "A Simple Restful PHP Microservice Framework!",
+    "homepage": "https://github.com/POABOB/Slim-ADR",
+    "authors": [
+        {
+            "name": "POABOB",
+            "email": "zxc752166@gmail.com"
+        }
+    ],
+    "keywords": [
+        "slim-simple",
+        "slim",
+        "slim4",
+        "slim-4",
+        "nginx",
+        "microservice",
+        "restful"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "catfan/medoo": "^2.1",
+        "lcobucci/jwt": "4.0",
+        "php-di/php-di": "^6.4",
+        "selective/basepath": "^2.1",
+        "slim/http": "^1.0",
+        "slim/psr7": "^1.0",
+        "slim/slim": "^4.10",
+        "symfony/dotenv": "^6.0"
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "tests"
+        }
+    }
+}
